@@ -40,8 +40,8 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:2.0\n' 
-            + 'FN:𝕸𝖗.𝕻𝖆𝖙𝖔⚜️🦆⁩⁩\n' 
-            + 'ORG:𝕸𝖗.𝕻𝖆𝖙𝖔⚜️🦆⁩;\n' 
+            + 'FN:mr, wosito❤️🔥⁩⁩\n' 
+            + 'ORG:mr, wosito❤️🔥⁩;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=17693039223+1 (769) 303-9223n' 
             + 'END:VCARD' 
 blocked = []   
@@ -49,8 +49,8 @@ prefix = '#'
 limitawal = 30
 memberlimit = 0
 ator = 'SUBSCRIBE'
-namo = 'Mr.Pato'
-cr = '𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆⁩⁩'
+namo = 'mr wositi'
+cr = 'mr wosito   bot ❤️🔥⁩⁩'
 /*************************************/
 
 /******** OWNER NUMBER**********/
@@ -368,7 +368,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Por fin te fuiste @${num.split('@')[0]}`
+				teks = `Por fin te fuiste, no soporto nuestro facha pinche joto mr wosito domina ❤️🔥🔥🔥🔥🔥@${num.split('@')[0]}`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
